@@ -1,0 +1,264 @@
+
+footer {
+    width: 100%;
+    padding: 2rem 8%;
+    background-color: #3949ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .logo{
+     height: 80px;
+     margin-bottom: 1rem;
+  }
+
+  .social-icons-container, .footer-menu-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url();
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+  }
+  .social-icon:hover{
+    background-color: #121212;
+    filter: invert(1); 
+  }
+
+  .social-icon:nth-of-type(3){
+    background-image: url();
+  }
+
+  .social-icon:nth-of-type(4){
+    background-image: url();
+  }
+
+  .footer-menu-container{
+    list-style-type:none;
+    color: white;
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  .menu-item{
+    margin: 1rem 1.5rem;
+    
+  }
+
+  .copyright{
+    color: white;
+    text-align: center;
+  }
+
+  
+
+  .titulo{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    color:#0288d1;
+  }
+  
+
+  .blog-post {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .blog-post1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+  .blog-post1 img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .blog-post1 h2,
+  .blog-post1 p {
+    margin: 0;
+  }
+  
+  
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .blog-post p {
+    line-height: 1.5;
+  }
+
+  .imagen1{
+      border-radius: 2%;
+      width: 63%;
+      height: 62%;
+  }
+
+  .blog-post1 p {
+    font-size: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: #f2f2f2;
+    font-weight:bolder;
+  }
+
+  .cuadroT{
+    background-color: #3949ab;
+    width: 40%;
+    height: 25%;
+    border-radius: 2%;
+  }
+
+  .blog-post2 {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .blog-post2 > div {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .parrafo{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .cuadro1{
+    background-color: #3949ab;
+    border-radius: 10%;
+  }
+
+  .titulo1{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    color: #bbdefb
+  }
+
+  .cuadro2{
+    background-color: #81d4fa;
+    border-radius: 10%;
+  }
+  .titulo2{
+    padding-top: 5%;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    color: #01579b;
+  }
+  
+  .parrafo2{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: #0288d1;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 115px;
+    
+  }
+
+  .datos{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+  }
+
+  .limenu{
+    margin-top: 25px;
+    list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-left: 5px solid #01579b;
+    border-right: 5px solid #01579b;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.caso1{
+margin-right: 185px;
+margin-top: 50px;
+}
+.caso2{
+  margin-right: 50px;
+  margin-top: 50px;
+  }
+
+.lista{
+  font-size: 30px;
+  border-bottom: 2px solid #01579b;
+}
+
+.imagen13{
+border-radius: 8px;
+width: 100%;
+
+}
+
+.imagen15{
+  border-radius: 8px;
+  width: 100%;
+  height: 301px;
+  }
+
+  
+.imagen16{
+  border-radius: 8px;
+  width: 100%;
+  height: 301px;
+  margin-top: 106px;
+  }
+ 
+  .titulo4{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    color: #bbdefb;
+    margin-top: 40px;
+  }
+  
+  .parrafo4{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+  }  
